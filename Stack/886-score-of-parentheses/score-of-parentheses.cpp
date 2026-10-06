@@ -11,7 +11,7 @@ public:
                 depth--;
 
                 if (i > 0 && s[i - 1] == '(') {
-                    ans += pow(2,depth);
+                    ans += 1 << depth;
                 }
             }
         }
